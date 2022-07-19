@@ -1,9 +1,9 @@
 {% unless page.hide_nav %}
 {% if site.nav %}
-<nav class="sidebar">
-  <div class="sidebar-inner">
+<nav>
+  <div>
     <details {% if include.open %}open{% endif %}>
-      <summary class="mb-2">Navigation</summary>
+      <summary>Navigation</summary>
       {% include nav.html links=site.nav %}
     </details>
   </div>

@@ -74,28 +74,33 @@
     </div>
 -->
     <div class="sa_container">
-      <nav class="sa_sidebar">
-        <details class="sa_navigation"><summary>機能解説</summary>
-          <div class="sa_navigation"><a href="main1.html">main1</a><br/></div>
-        </details>
-        <details class="sa_navigation"><summary>クラス解説</summary>
-          <details class="sa_navigation"><summary>Part1</summary>
-	          <details class="sa_navigation"><summary>Chapter1</summary>
-	            <div class="sa_navigation"><a href="Contents/Part1/Chapter1/Content1_1_1.html">Content1_1_1</a><br/></div>
-	            <div class="sa_navigation"><a href="Contents/Part1/Chapter1/Content1_1_2.html">Content1_1_2</a><br/></div>
-	          </details>
-	          <details class="sa_navigation"><summary>Chapter2</summary>
-	            <div class="sa_navigation"><a href="Contents/Part1/Chapter1/Content1_2_1.html">Content1_2_1</a><br/></div>
-	          </details>
+      <header class="sa_sidebar">
+        {% include navigation.html %}
+<!--
+        <nav>
+          <details class="sa_navigation"><summary>機能解説</summary>
+            <div class="sa_navigation"><a href="main1.html">main1</a><br/></div>
           </details>
-          <details class="sa_navigation"><summary>Part2</summary>
-	          <details class="sa_navigation"><summary>Chapter1</summary>
-	            <div class="sa_navigation"><a href="Contents/Part1/Chapter1/Content2_1_1.html">Content2_1_1</a><br/></div>
-	            <div class="sa_navigation"><a href="Contents/Part1/Chapter1/Content2_1_2.html">Content2_1_2</a><br/></div>
-	          </details>
+          <details class="sa_navigation"><summary>クラス解説</summary>
+            <details class="sa_navigation"><summary>Part1</summary>
+  	          <details class="sa_navigation"><summary>Chapter1</summary>
+  	            <div class="sa_navigation"><a href="Contents/Part1/Chapter1/Content1_1_1.html">Content1_1_1</a><br/></div>
+  	            <div class="sa_navigation"><a href="Contents/Part1/Chapter1/Content1_1_2.html">Content1_1_2</a><br/></div>
+  	          </details>
+  	          <details class="sa_navigation"><summary>Chapter2</summary>
+  	            <div class="sa_navigation"><a href="Contents/Part1/Chapter1/Content1_2_1.html">Content1_2_1</a><br/></div>
+  	          </details>
+            </details>
+            <details class="sa_navigation"><summary>Part2</summary>
+  	          <details class="sa_navigation"><summary>Chapter1</summary>
+  	            <div class="sa_navigation"><a href="Contents/Part1/Chapter1/Content2_1_1.html">Content2_1_1</a><br/></div>
+  	            <div class="sa_navigation"><a href="Contents/Part1/Chapter1/Content2_1_2.html">Content2_1_2</a><br/></div>
+  	          </details>
+            </details>
           </details>
-        </details>
-      </nav>
+        </nav>
+-->
+      </header>
       <main class="sa_main">
           {{ content }}
       </main>

@@ -4,10 +4,15 @@
       {% assign part0 = part[0] %}
       {% assign part1 = part[1] %}
       {% if part1.first %}
+      <details class="sa_navigation"><summary>{{ part0 }}</summary>
+        {% include nav.html links=part1 %}
+      </details>
+<!---
       <div class="menu">
         <span class="menu-heading">{{ part0 }}</span>
         {% include nav.html links=part1 %}
       </div>
+-->
       {% else %}
         {% include nav-link.html title=part0 url=part1 %}
       {% endif %}
