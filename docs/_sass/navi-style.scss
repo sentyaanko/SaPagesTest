@@ -25,6 +25,14 @@
   overflow-y: scroll;
 }
 
+.sa_anchor {
+	margin: 0px;
+}
+
+.sa_selected {
+  font-weight: bold;
+}
+
 .sa_navigation > .sa_navigation {
 	padding-left: 16px;
 }
