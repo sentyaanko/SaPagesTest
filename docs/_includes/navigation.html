@@ -1,12 +1,10 @@
 {% unless page.hide_nav %}
 {% if site.nav %}
-<nav>
-  <div>
-    <details {% if include.open %}open{% endif %}>
-      <summary>Navigation</summary>
-      {% include nav.html links=site.nav %}
-    </details>
-  </div>
+<nav class="sa_sidebar">
+  <details {% if include.open %}open{% endif %}>
+    <summary>Navigation</summary>
+    {% include nav.html links=site.nav %}
+  </details>
 </nav>
 {% endif %}
 {% endunless %}

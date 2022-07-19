@@ -74,8 +74,7 @@
     </div>
 -->
     <div class="sa_container">
-      <header class="sa_sidebar">
-        {% include navigation.html %}
+      {% include navigation.html open=true %}
 <!--
         <nav>
           <details class="sa_navigation"><summary>機能解説</summary>
@@ -100,7 +99,6 @@
           </details>
         </nav>
 -->
-      </header>
       <main class="sa_main">
           {{ content }}
       </main>
