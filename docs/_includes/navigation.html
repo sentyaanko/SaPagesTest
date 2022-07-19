@@ -1,7 +1,7 @@
 {% unless page.hide_nav %}
 {% if site.nav %}
 <nav class="sa_sidebar">
-  <details {% if include.open %}open{% endif %}>
+  <details class="sa_navigation" {% if include.open %}open{% endif %}>
     <summary>Navigation</summary>
     {% include nav.html links=site.nav %}
   </details>
