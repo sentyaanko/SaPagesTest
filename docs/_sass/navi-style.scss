@@ -1,87 +1,30 @@
 // for navi styles
 
-
-//variable
-$footer-height: 100px;
-
-
-//layout
-html {
-  position: relative;
-  min-height: 100%;
+.sa_body {
+	margin: 0px;
 }
 
-body {
-  margin-bottom: $footer-height; /* Margin bottom by footer height */
-}
-
-.footer {
-  position: absolute;
-  bottom: 0;
+.sa_container{
+  display: flex;
   width: 100%;
-  height: $footer-height; /* Set the fixed height of the footer here */
+  height: 100vh;
 }
 
-.container-xl {
-  @extend .px-3;
-  max-width: 1366px;
+.sa_main {
+  width: 80%;
+  padding: 8px;
+  resize: horizontal;
+  overflow-y: scroll;
 }
 
-@include breakpoint('xl') {
-  .sidebar-col {
-    width: 250px;
-  }
-
-  .sidebar {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    padding-top: $spacer-4;
-    padding-bottom: $spacer-4;
-
-    &-inner {
-      max-height: calc(100vh - #{2 * $spacer-4});
-      overflow-y: auto;
-    }
-
-    .menu:last-child {
-      margin-bottom: 0;
-    }
-  }
-
-  .navigation-col {
-    order: 1;
-  }
-
-  .content-col {
-    padding: $spacer-5;
-    order: 2;
-  }
-
-  .toc-col {
-    order: 3;
-  }
+.sa_sidebar {
+  width: 20%;
+  padding: 8px;
+  resize: horizontal;
+  overflow-y: scroll;
 }
 
-
-//content
-.toc {
-  @extend .menu;
-  li {
-    list-style-type: none;
-    margin: 0;
-  }
-  a {
-    @extend .menu-item;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-bottom: none;
-  }
-  ul {
-    border-bottom: 1px solid $gray-200;
-    a {
-      padding-left: 2em;
-    }
-  }
+.sa_navigation > .sa_navigation {
+	padding-left: 16px;
 }
 
