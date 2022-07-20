@@ -7,11 +7,12 @@
 
 .sa_container{
   display: flex;
+  flex-direction: row;
 }
 
 .sa_container_child{
   padding: 16px;
-  height: calc(100% - 16px * 2);
+  height: calc(100vh - 16px * 2);
   resize: horizontal;
   overflow-y: scroll;
 }
@@ -36,7 +37,7 @@
 .sa_sidebar_nav{
   flex: auto;
   min-height: 4em;
-  max-height: calc(100vh - 8em);
+  max-height: calc(100vh - 16px * 2 - 8em);
   overflow-y: scroll;
 }
 .sa_sidebar_footer{
