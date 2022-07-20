@@ -25,9 +25,21 @@
   overflow-y: scroll;
 }
 
-.sa_nav {
-  min-height: 10em;
+.sa_sidebar_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sa_sidebar_header{
+  flex: initial;
+}
+
+.sa_sidebar_nav{
+  flex: auto;
   overflow-y: scroll;
+}
+.sa_sidebar_footer{
+  flex: initial;
 }
 
 .sa_anchor {
