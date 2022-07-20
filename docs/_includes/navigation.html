@@ -3,7 +3,7 @@
 <nav class="sa_sidebar">
   <details class="sa_navigation" {% if include.open %}open{% endif %}>
     <summary>Navigation</summary>
-    {% include nav.html links=site.nav %}
+    {% include nav.html links=site.data.navis.nav %}
   </details>
 </nav>
 {% endif %}
