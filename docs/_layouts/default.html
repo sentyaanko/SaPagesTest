@@ -14,7 +14,9 @@
   </head>
   <body class="sa_body">
     <div class="sa_container">
-      {% include navigation.html open=true %}
+      <div class="sa_sidebar">
+     	  {% include navigation.html open=true %}
+      </div>
       <main class="sa_main">
           {{ content }}
       </main>
