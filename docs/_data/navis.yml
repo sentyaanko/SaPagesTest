@@ -1,0 +1,16 @@
+# 以下は自動生成
+# generated
+nav:
+  - 機能解説:
+    - main1: "main1"
+  - クラス解説:
+    - Part1:
+      - Chapter1:
+          - Content1_1_1: "Contents/Part1/Chapter1/Content1_1_1"
+          - Content1_1_2: "Contents/Part1/Chapter1/Content1_1_2"
+      - Chapter2:
+          - Content1_2_1: "Contents/Part1/Chapter1/Content1_2_1"
+    - Part2:
+      - Chapter1:
+          - コンテンツ 2_1_1: "Contents/Part2/Chapter1/Content2_1_1"
+          - コンテンツ 2_1_2: "Contents/Part2/Chapter1/Content2_1_2"
