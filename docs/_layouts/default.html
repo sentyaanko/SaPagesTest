@@ -14,7 +14,7 @@
   </head>
   <body class="sa_body">
     <div class="sa_container">
-      <div class="sa_sidebar">
+      <div class="sa_container_child sa_sidebar">
         <div class="sa_sidebar_container">
           <div class="sa_sidebar_header">
             <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
@@ -40,7 +40,7 @@
           </div>
         </div>
       </div>
-      <main class="sa_main">
+      <main class="sa_container_child sa_main">
           {{ content }}
       </main>
     </div>
