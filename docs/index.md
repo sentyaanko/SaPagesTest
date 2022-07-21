@@ -4,7 +4,7 @@ SaPagesTes index file.
 
 This is sample.
 
-`code` tag test.
+`code` tag test. `コードタグのテスト`です。
 
 ```
 pre tag test
