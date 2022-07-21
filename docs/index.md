@@ -4,6 +4,12 @@ SaPagesTes index file.
 
 This is sample.
 
+`code` tag test.
+
+```
+pre tag test
+```
+
 * table in lists tgest
 	* list1
 		* list1-1
