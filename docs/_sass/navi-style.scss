@@ -1,8 +1,8 @@
 // for navi styles
 
 .sa_body {
-	margin: 0px;
-	padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .sa_container{
@@ -34,25 +34,28 @@
   flex: initial;
 }
 
-.sa_sidebar_nav{
+.sa_sidebar_body{
   flex: auto;
-  min-height: 4em;
-  max-height: calc(100vh - 16px * 2 - 8em);
-  overflow-y: scroll;
 }
 .sa_sidebar_footer{
   flex: initial;
 }
 
+.sa_navigation_box{
+  min-height: 4em;
+  max-height: calc(100vh - 16px * 2 - 8em);
+  overflow-y: scroll;
+}
+
 .sa_anchor {
-	margin: 0px;
+  margin: 0px;
 }
 
 .sa_selected {
   font-weight: bold;
 }
 
-.sa_navigation > .sa_navigation {
-	padding-left: 16px;
+.sa_navigation .sa_navigation {
+  padding-left: 16px;
 }
 
