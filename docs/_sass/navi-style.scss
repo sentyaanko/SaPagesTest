@@ -64,6 +64,11 @@
 }
 
 code{
-  background-color: rgba(99,110,123,0.4);
+  background-color: #f8f8f8;
   border-radius: 6px;
+}
+
+pre > code{
+  background-color: transparent;
+  border-radius: 0px;
 }
