@@ -4,11 +4,21 @@ SaPagesTes index file.
 
 This is sample.
 
-`code` tag test. `コードタグのテスト`です。
+`code` tag test. `コードタグのテスト`です。  
 
 ```
 pre tag test
 ```
+
+`code` tag test. `コードタグのテスト`です。  
+`コードタグのテスト`です。 `code` tag test.  
+
+```
+pre tag test
+pre tag test
+pre tag test
+```
+
 
 * table in lists tgest
 	* list1
